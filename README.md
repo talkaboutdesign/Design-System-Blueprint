@@ -35,7 +35,7 @@ This project provides a starting point for creating your own design system. It l
 
 ```bash
 # Create a new project
-npm create vite@latest my-design-system -- --template [your-github-username]/design-system-blueprint
+npm create vite@latest my-design-system -- --template talkaboutdesign/design-system-blueprint
 
 # Navigate to the project
 cd my-design-system

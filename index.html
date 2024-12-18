@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS + Tailwind</title>
+    <meta name="description" content="A template for building your own design system using React, TypeScript, and Tailwind CSS, built on top of shadcn/ui." />
+    <title>Design System Blueprint</title>
+    <script>
+      // Add this if you want to enable dark mode based on user preference
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Quick start: npm create vite@latest my-design-system -- --template talkaboutdesign/design-system-blueprint -->
   </body>
 </html>
