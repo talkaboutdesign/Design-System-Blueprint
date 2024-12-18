@@ -33,9 +33,13 @@ This project provides a starting point for creating your own design system. It l
 
 ### Quick Start
 
+You can start using this template in one of two ways:
+
+#### Option 1: Using degit (Recommended)
+
 ```bash
 # Create a new project
-npm create vite@latest my-design-system -- --template talkaboutdesign/design-system-blueprint
+npx degit talkaboutdesign/Design-System-Blueprint my-design-system
 
 # Navigate to the project
 cd my-design-system
@@ -47,9 +51,22 @@ npm install
 npm run dev
 ```
 
+#### Option 2: GitHub Template
+
+1. Click the "Use this template" button above
+2. Clone your new repository
+3. Install dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm run dev
+```
+
 ## Project Structure
 
-\`\`\`
+```
 src/
 ├── components/
 │   ├── ui/           # Your UI components
@@ -59,7 +76,7 @@ src/
 ├── lib/
 │   └── utils.ts      # Utility functions
 └── styles/           # Global styles and Tailwind configuration
-\`\`\`
+```
 
 ## Adding Components
 
